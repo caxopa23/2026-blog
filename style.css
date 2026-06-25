@@ -1,0 +1,10 @@
+:root{
+    --amarelo-forte: #ffbe0bff;
+    --laranja-fogo: #fb5607ff;
+    --rosa-neon: #ff006eff;
+    --azul-violeta: #8338ecff;
+}
+
+body{
+    background: var(--amarelo-forte);
+}
