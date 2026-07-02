@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+
 :root{
     --amarelo-forte: #ffbe0bff;
     --laranja-fogo: #fb5607ff;
     --rosa-neon: #ff006eff;
     --azul-violeta: #8338ecff;
+    --titulo: "Oswald", sans-serif;
+    --texto: "Open Sans", sans-serif;
 }
 
 body{
     background: var(--amarelo-forte);
+    font-family: var(--texto);
+}
+
+h1{
+    font-family: var(--titulo);
 }
