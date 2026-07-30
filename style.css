@@ -8,12 +8,13 @@
     --titulo: "Oswald", sans-serif;
     --texto: "Open Sans", sans-serif;
 }
-
 body{
     background: var(--amarelo-forte);
     font-family: var(--texto);
 }
-
-h1{
-    font-family: var(--titulo);
+header{
+    background-color: var(--azul-violeta);
+    display: flex;
+    justify-content: space-around;
+    color: var(--laranja-fogo);
 }
