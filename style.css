@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
     --amarelo-forte: #ffbe0bff;
     --laranja-fogo: #fb5607ff;
@@ -8,6 +13,7 @@
     --titulo: "Oswald", sans-serif;
     --texto: "Open Sans", sans-serif;
 }
+
 body{
     background: var(--amarelo-forte);
     font-family: var(--texto);
@@ -17,4 +23,14 @@ header{
     display: flex;
     justify-content: space-around;
     color: var(--laranja-fogo);
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px;
+    color: var(--rosa-neon);
+    text-transform: uppercase;
+    font-size: 14px;
+
 }
