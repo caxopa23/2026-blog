@@ -6,7 +6,7 @@
 }
 
 :root{
-    --amarelo-forte: #ffbe0bff;
+    --branco: #ffffffff;
     --laranja-fogo: #fb5607ff;
     --rosa-neon: #ff006eff;
     --azul-violeta: #8338ecff;
@@ -19,18 +19,33 @@ body{
     font-family: var(--texto);
 }
 header{
-    background-color: var(--azul-violeta);
+    background-color: var(--rosa-neon);
     display: flex;
     justify-content: space-around;
-    color: var(--laranja-fogo);
+    color: var(--branco);
+    padding: 30px;
 }
 .menu{
     display: flex;
     list-style: none;
     gap: 20px;
     margin: 10px;
-    color: var(--rosa-neon);
+    color: var(--branco);
     text-transform: uppercase;
     font-size: 14px;
+}
+.menu a{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bold;
+}
+.menu a:hover{
+    color: var(--laranja-fogo);
+    transition: 0,5s;
+}
+
+.img-capa{
+    width: 100%;
+    height: 10%;
 
 }
