@@ -28,6 +28,11 @@ header {
     padding: 30px;
 }
 
+.logo {
+    width: 10%;
+    border-radius: 100%;
+}
+
 .menu {
     display: flex;
     list-style: none;
@@ -37,12 +42,19 @@ header {
     text-transform: uppercase;
     font-size: 14px;
 }
-
+.noticias{
+    margin: 20px 150px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
 .menu a {
     text-decoration: none;
     color: var(--branco);
     font-weight: bold;
 }
+
+/*noticias*/
 
 .menu a:hover {
     color: var(--laranja-fogo);
@@ -73,3 +85,4 @@ header {
     font-family: var(--texto);
     font-size: 14px;
 }
+
